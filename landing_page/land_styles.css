@@ -1,0 +1,13 @@
+.jumbotron {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    width: 50%;
+}
+.banner {
+    position: relative;
+    background-color: black;
+}

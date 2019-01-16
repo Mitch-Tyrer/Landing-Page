@@ -13,35 +13,43 @@
 
 <body>
     <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+    <nav id="nav-bar" class="navbar navbar-expand navbar-dark bg-dark">
+            <!-- each link needs to go to the corresponding section of the landing page
+                lock navbar to the top of the viewport at all times
+                add a mediaquery (for devices)-->
+            <a class="navbar-brand" href="#">MLTcinematography</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+
     <header id="header">
-        <div class="container">
-            <nav id="nav-bar" class="navbar navbar-dark bg-dark">
-                <!-- each link needs to go to the corresponding section of the landing page
-                    lock navbar to the top of the viewport at all times
-                    add a mediaquery (for devices)-->
-                <a class="navbar-brand" href="#">Navbar w/ text</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarText">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                    </ul>
-                    <span class="navbar-text">
-                        Navbar text with an inline element
-                    </span>
+            <div class="jumbotron">
+                    <h1>Mitchell Leedom Tyrer</h1>
+                    <h5>Bringing your imagination to the screen.</h5>
                 </div>
-            </nav>
-        </div>
+            <img class="header-bg" id="header-img" src="https://cdn.fstoppers.com/styles/full/s3/media/2018/11/25/vestrahorn-pano.jpg" alt="temporary image">
+
+    </header>
+    <div class="container-fluid">
+        <div class="banner"></div>
+    </div>
+            
         <div class="container">
             <iframe id="video" src="https://player.vimeo.com/video/178532817" width="640" height="360" frameborder="0"
                 webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -61,8 +69,8 @@
             </form>
         </div>
 
-        <img id="header-img" src="https://cdn.fstoppers.com/styles/full/s3/media/2018/11/25/vestrahorn-pano.jpg" alt="temporary image">
-    </header>
+
+ 
 
 
 
