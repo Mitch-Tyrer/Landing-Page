@@ -13,11 +13,12 @@
 
 <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> 
+    <header id="header">
     <nav id="nav-bar" class="navbar navbar-expand navbar-dark bg-dark">
         <!-- each link needs to go to the corresponding section of the landing page
                 lock navbar to the top of the viewport at all times
                 add a mediaquery (for devices)-->
-        <a class="navbar-brand" href="#">MLTcinematography</a>
+        <a class="navbar-brand" href="#header">MLTcinematography</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -25,7 +26,7 @@
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#header">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#about">About</a>
@@ -41,7 +42,7 @@
         </div>
     </nav>
 
-    <header id="header">
+    
         <div class="jumbotron">
             <h1>Mitchell Leedom Tyrer</h1>
             <h5>Bringing your imagination to the screen.</h5>
@@ -211,7 +212,7 @@
 
 
     <div class="container">
-        <form action="_blank" id="form">
+        <form action=" https://www.freecodecamp.com/email-submit" id="form">
             <div class="form-group row">
                 <div class="col">
                     <textarea class="form-control" name="project-details" id="contact-box" cols="30" rows="10"
@@ -225,7 +226,7 @@
                         <input type="email" name="email" id="email" class="form-control" placeholder="Your Email Address">
                     </div>
                     <div class="mx-auto text-center">
-                        <input class="btn btn-outline-dark" type="submit" id="submit" formaction=" https://www.freecodecamp.com/email-submit">
+                        <input class="btn btn-outline-dark" type="submit" id="submit" action=" https://www.freecodecamp.com/email-submit">
                     </div>
                 </div>
         </form>
