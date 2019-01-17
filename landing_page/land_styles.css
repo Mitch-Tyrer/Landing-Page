@@ -19,7 +19,21 @@ img {
     margin-left:auto;
 }
 
+video {
+    width: 1024px;
+    height: 576px;
+    justify-content: center;
+}
 
+.carousel iframe {
+    width: 100%;
+
+    height: auto
+
+}
+.video {
+    padding:.1rem .5rem;
+}
 
 .banner {
     text-align: center;
